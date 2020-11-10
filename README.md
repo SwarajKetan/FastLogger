@@ -1,0 +1,2 @@
+# FastLogger
+Very fast logging 
