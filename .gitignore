@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AsyncLogger/.vs/AsyncLogger/v16
+/AsyncLogger/AsyncLogger/bin/Debug/netcoreapp3.1
+/AsyncLogger/AsyncLogger/obj
+/AsyncLogger/AyncLogger.Tests/bin/Debug/netcoreapp3.1
+/AsyncLogger/AyncLogger.Tests/obj

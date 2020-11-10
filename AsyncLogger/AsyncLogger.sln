@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLogger", "AsyncLogger\AsyncLogger.csproj", "{E145733B-B4EF-4F32-A925-65EE8AE34B8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyncLogger.Tests", "AyncLogger.Tests\AyncLogger.Tests.csproj", "{EF34BF00-43F9-47EC-8149-43D09BDBFA8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E145733B-B4EF-4F32-A925-65EE8AE34B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E145733B-B4EF-4F32-A925-65EE8AE34B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E145733B-B4EF-4F32-A925-65EE8AE34B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E145733B-B4EF-4F32-A925-65EE8AE34B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF34BF00-43F9-47EC-8149-43D09BDBFA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF34BF00-43F9-47EC-8149-43D09BDBFA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF34BF00-43F9-47EC-8149-43D09BDBFA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF34BF00-43F9-47EC-8149-43D09BDBFA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902AF780-FBA6-488C-9981-0637F60F0400}
+	EndGlobalSection
+EndGlobal
