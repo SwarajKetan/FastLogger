@@ -42,6 +42,7 @@ namespace AsyncLogger
         private BlockingCollection<string> MessageQueue { get; set; } = new BlockingCollection<string>();
 
         private Action<string> WriterHook { get; set; }
+        private Task WriterTask { get; set; }
 
         private string LogName { get; }
 
@@ -55,7 +56,7 @@ namespace AsyncLogger
             this.LogLevel = logLevel;
             this.WriterHook = writerHook;
             this.LogName = logName;
-            _ = FireupWriterTask();
+            this.WriterTask = FireupWriterTask();
             this.Info($"Started logging.");
             this.Info("TimeStamp|ProcessId|ThreadId|LogName|LogType|Message|CallerMemberName|CallerFilePath|CallerLineNo");
         }
@@ -146,10 +147,7 @@ namespace AsyncLogger
                         {
                             WriterHook(msg);
                         }
-                        catch (Exception)
-                        {
-                            // no throw
-                        }
+                        catch (Exception) { /* no throw*/ }
                     }
                 }
             });

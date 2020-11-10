@@ -1,4 +1,8 @@
-﻿namespace AsyncLogger
+﻿
+/// <summary>
+/// Author : https://github.com/SwarajKetan/
+/// </summary>
+namespace AsyncLogger
 {
     public enum LogLevel
     {

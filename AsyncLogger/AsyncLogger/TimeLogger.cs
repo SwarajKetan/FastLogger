@@ -1,5 +1,8 @@
 ﻿
 
+/// <summary>
+/// Author : https://github.com/SwarajKetan/
+/// </summary>
 namespace AsyncLogger
 {
     using System;
