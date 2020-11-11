@@ -1,2 +1,2 @@
 # FastLogger
-Very fast logging 
+Very fast logging to
