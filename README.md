@@ -1,2 +1,3 @@
 # FastLogger
-Very fast logging to
+- use of blocking collection
+- hookable log writer
