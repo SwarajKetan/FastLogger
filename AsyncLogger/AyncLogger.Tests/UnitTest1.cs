@@ -37,7 +37,7 @@ namespace AyncLogger.Tests
             logger.Info("some info");
             logger.Error("some error");
             logger.Warning("some warning");
-            Task.Run(() => logger.Info("some info")).ConfigureAwait(false);
+            Task.Run(() => logger.Info("some info")).ConfigureAwait(false); //
             logger.Error("some error");
             logger.Warning("some warning");
             logger.Info("some info");
